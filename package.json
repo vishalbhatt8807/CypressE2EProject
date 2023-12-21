@@ -1,0 +1,22 @@
+{
+  "name": "cypresse2eproject",
+  "version": "1.0.0",
+  "description": "We are deploying Cypress Automation Framework using POM, Mocha ,chai framework and Mocha-awesome reports or Allure Reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalbhatt8807/CypressE2EProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalbhatt8807/CypressE2EProject/issues"
+  },
+  "homepage": "https://github.com/vishalbhatt8807/CypressE2EProject#readme",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
