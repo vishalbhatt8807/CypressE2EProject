@@ -4,6 +4,7 @@
   "description": "We are deploying Cypress Automation Framework using POM, Mocha ,chai framework and Mocha-awesome reports or Allure Reporting.",
   "main": "index.js",
   "scripts": {
+    "test:addtocart": "npx cypress run --spec cypress/e2e/tests/homePageTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/vishalbhatt8807/CypressE2EProject#readme",
   "devDependencies": {
-    "cypress": "^13.6.1"
+    "cypress": "^13.6.1",
+    "cypress-mochawesome-reporter": "^3.7.0"
   }
 }
